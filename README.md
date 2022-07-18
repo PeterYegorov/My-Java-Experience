@@ -22,3 +22,12 @@ Android OS runs on Java. Java is a powerful language, with extensive support on 
 
 7) Debug failed cases
 
+## Working with shapes
+
+There I have developed a class ```PerimeterAssignmentRunner```. It contains multiple methods.
+
+1) ```getPerimeter``` calculates the perimeter of the given Shape (A class of points).
+2) ```getNumPoints``` Returns the number of points in a shape.
+3) ```getAverageLength```, ```getLargestSide```, and ```getLargestX``` allow to find additional information about the shape.
+4) ```getLargestPerimeterMultipleFiles``` Returns the largest perimeter when multiple shapes (files) are given.
+5) ```getFileWithLargestPerimeter``` Returns the filename with the largest perimeter of a shape.
