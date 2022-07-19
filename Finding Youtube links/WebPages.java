@@ -11,8 +11,9 @@ public class WebPages {
     public void printYouTubeURLs (String url) {         // Print all YouTube links from the input page
         URLResource urlRes = new URLResource(url);
         for (String word : urlRes.words()) {
-            if (word.toLowerCase().indexOf("youtube.com") != -1) {
-                int firstQuoteIndex = word.indexOf("\"") + 1;
+            int youtubePos = word.toLowerCase().indexOf("youtube.com");
+            if (youtubePos != -1) {
+                int firstQuoteIndex = word.lastIndexOf("\"", youtubePos) + 1;
                 int secondQuoteIndex = word.indexOf("\"", firstQuoteIndex);
                 String urlStr = word.substring(firstQuoteIndex, secondQuoteIndex);
                 System.out.println(urlStr);
