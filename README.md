@@ -31,3 +31,11 @@ There I have developed a class ```PerimeterAssignmentRunner```. It contains mult
 3) ```getAverageLength```, ```getLargestSide```, and ```getLargestX``` allow to find additional information about the shape.
 4) ```getLargestPerimeterMultipleFiles``` Returns the largest perimeter when multiple shapes (files) are given.
 5) ```getFileWithLargestPerimeter``` Returns the filename with the largest perimeter of a shape.
+
+## Finding youtube links
+
+In this small project, I developed a simple parser that prints all Youtube links from a web page. 
+
+## Finding genes in the DNA
+### Simplified DNA concepts
+The DNA can be represented as a string of Nucleotides (A, G, T, C). 3 Nucleotides form a Codon. A gene starts with ATG - a Start Codon and ends with TAA - a Stop Codon.
