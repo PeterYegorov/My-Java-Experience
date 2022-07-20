@@ -38,4 +38,4 @@ In this small project, I developed a simple parser that prints all Youtube links
 
 ## Finding genes in the DNA
 ### Simplified DNA concepts
-The DNA can be represented as a string of Nucleotides (A, G, T, C). 3 Nucleotides form a Codon. A gene starts with ATG - a Start Codon and ends with TAA - a Stop Codon.
+The DNA can be represented as a string of Nucleotides (A, G, T, C). 3 Nucleotides form a Codon. A gene starts with ATG - a Start Codon. A gene can end with one of these 3 stop codons: TAA, TGA, TAG.
