@@ -39,3 +39,19 @@ In this small project, I developed a simple parser that prints all Youtube links
 ## Finding genes in the DNA
 ### Simplified DNA concepts
 The DNA can be represented as a string of Nucleotides (A, G, T, C). 3 Nucleotides form a Codon. A gene starts with ATG - a Start Codon. A gene can end with one of these 3 stop codons: TAA, TGA, TAG.
+
+
+## CSV files
+### Learning outcomes of this project:
+
+Use the open-source Apache Commons CSV package in your own Java programs;
+
+Access data from one or many CSV files using Java;
+
+Convert strings into numbers;
+
+Understand how to use “null” in Java programs (when you want to represent “nothing”);
+
+Devise an algorithm (and implement in Java) to answer questions about CSV data;
+
+Analyze CSV data across multiple CSV files (for example, find maximums, minimums, averages, and other simple statistical results).
